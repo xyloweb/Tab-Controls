@@ -32,11 +32,8 @@
 	"destination": "detailScreen",
 	"pages": [
 		{
-			"objects": {}
-		},
-		{
 			"objects": {
-				"Tab Control": {
+				"TabControlPref": {
 					"type": "tab",
 					"text": "Tab control",
 					"top": 14,
@@ -44,11 +41,15 @@
 					"width": 625,
 					"height": 197,
 					"dataSource": "",
-					"dataSourceTypeHint": "integer"
+					"dataSourceTypeHint": "integer",
+					"method": "ObjectMethods/TabControlPref.4dm",
+					"events": [
+						"onClick"
+					]
 				},
 				"Button": {
 					"type": "button",
-					"text": "Activate MCI",
+					"text": "Enable / Disable MCI",
 					"top": 226,
 					"left": 31,
 					"width": 133,
@@ -60,9 +61,89 @@
 					"focusable": false
 				}
 			}
+		},
+		{
+			"objects": {
+				"Texte": {
+					"type": "text",
+					"text": "Tab One",
+					"top": 81,
+					"left": 31,
+					"width": 105,
+					"height": 16
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte1": {
+					"type": "text",
+					"text": "Tab Two",
+					"top": 81,
+					"left": 31,
+					"width": 105,
+					"height": 16
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte2": {
+					"type": "text",
+					"text": "Tab Three",
+					"top": 81,
+					"left": 31,
+					"width": 105,
+					"height": 16
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte3": {
+					"type": "text",
+					"text": "Tab Four",
+					"top": 81,
+					"left": 31,
+					"width": 105,
+					"height": 16
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte4": {
+					"type": "text",
+					"text": "Tab Five",
+					"top": 81,
+					"left": 31,
+					"width": 105,
+					"height": 16
+				}
+			}
+		},
+		{
+			"objects": {
+				"Texte5": {
+					"type": "text",
+					"text": "Tab Six",
+					"top": 81,
+					"left": 31,
+					"width": 105,
+					"height": 16
+				},
+				"Texte7": {
+					"type": "text",
+					"text": "text default",
+					"top": 334,
+					"left": 151,
+					"width": 1,
+					"height": 16
+				}
+			}
 		}
 	],
-	"geometryStamp": 13,
+	"geometryStamp": 37,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

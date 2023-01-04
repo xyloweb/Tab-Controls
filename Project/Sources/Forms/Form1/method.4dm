@@ -6,7 +6,7 @@ Case of
 		
 		C_POINTER:C301($tabcontrolPointer)
 		
-		$tabcontrolPointer:=OBJECT Get pointer:C1124(Object named:K67:5;"Tab Control")
+		$tabcontrolPointer:=OBJECT Get pointer:C1124(Object named:K67:5;"TabControlPref")
 		
 		$tabcontrolPointer->:=Form:C1466.tabs
 		
