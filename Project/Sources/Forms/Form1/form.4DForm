@@ -1,4 +1,4 @@
-{
+﻿{
 	"$4d": {
 		"version": "1",
 		"kind": "form"
@@ -43,7 +43,8 @@
 					"left": 27,
 					"width": 625,
 					"height": 197,
-					"dataSource": "Form:C1466.tabs"
+					"dataSource": "",
+					"dataSourceTypeHint": "integer"
 				},
 				"Button": {
 					"type": "button",
@@ -68,5 +69,6 @@
 		"views": {
 			"View 1": {}
 		}
-	}
+	},
+	"method": "method.4dm"
 }

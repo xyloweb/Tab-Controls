@@ -10,21 +10,7 @@ APPEND TO LIST:C376($list;"Sage";4)
 APPEND TO LIST:C376($list;"MDCI";5)
 APPEND TO LIST:C376($list;"Etats";6)
 
-
-C_BOOLEAN:C305($enteredProperty)
-C_LONGINT:C283($styleProperty;$colorProperty)
-C_TEXT:C284($iconProperty)
-
-/*
-GET LIST ITEM PROPERTIES($list;3;$enteredProperty;$styleProperty;$iconProperty;$colorProperty)
-$enteredProperty:=False
-*/
 SET LIST ITEM PROPERTIES:C386($list;3;False:C215;Plain:K14:1;0)
-
-/*
-GET LIST ITEM PROPERTIES($list;5;$enteredProperty;$styleProperty;$iconProperty;$colorProperty)
-$enteredProperty:=False
-*/
 SET LIST ITEM PROPERTIES:C386($list;5;False:C215;Plain:K14:1;0)
 
 $data:=New object:C1471
